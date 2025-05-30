@@ -1,0 +1,58 @@
+[
+	{
+		"file": "D:\\UnrealProjects\\CppThirdPerson\\Source\\CppThirdPerson\\CppThirdPerson.Build.cs",
+		"arguments": [
+			"C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@D:\\UnrealProjects\\CppThirdPerson\\.vscode\\compileCommands_Default\\CppThirdPerson.1.rsp"
+		],
+		"directory": "E:\\Epic Games\\UE_5.5\\Engine\\Source"
+	},
+	{
+		"file": "D:\\UnrealProjects\\CppThirdPerson\\Source\\CppThirdPerson\\CppThirdPerson.cpp",
+		"arguments": [
+			"C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@D:\\UnrealProjects\\CppThirdPerson\\.vscode\\compileCommands_Default\\CppThirdPerson.1.rsp"
+		],
+		"directory": "E:\\Epic Games\\UE_5.5\\Engine\\Source"
+	},
+	{
+		"file": "D:\\UnrealProjects\\CppThirdPerson\\Source\\CppThirdPerson\\CppThirdPerson.h",
+		"arguments": [
+			"C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@D:\\UnrealProjects\\CppThirdPerson\\.vscode\\compileCommands_Default\\CppThirdPerson.1.rsp"
+		],
+		"directory": "E:\\Epic Games\\UE_5.5\\Engine\\Source"
+	},
+	{
+		"file": "D:\\UnrealProjects\\CppThirdPerson\\Source\\CppThirdPerson\\CppThirdPersonCharacter.cpp",
+		"arguments": [
+			"C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@D:\\UnrealProjects\\CppThirdPerson\\.vscode\\compileCommands_Default\\CppThirdPerson.1.rsp"
+		],
+		"directory": "E:\\Epic Games\\UE_5.5\\Engine\\Source"
+	},
+	{
+		"file": "D:\\UnrealProjects\\CppThirdPerson\\Source\\CppThirdPerson\\CppThirdPersonCharacter.h",
+		"arguments": [
+			"C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@D:\\UnrealProjects\\CppThirdPerson\\.vscode\\compileCommands_Default\\CppThirdPerson.1.rsp"
+		],
+		"directory": "E:\\Epic Games\\UE_5.5\\Engine\\Source"
+	},
+	{
+		"file": "D:\\UnrealProjects\\CppThirdPerson\\Source\\CppThirdPerson\\CppThirdPersonGameMode.cpp",
+		"arguments": [
+			"C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@D:\\UnrealProjects\\CppThirdPerson\\.vscode\\compileCommands_Default\\CppThirdPerson.1.rsp"
+		],
+		"directory": "E:\\Epic Games\\UE_5.5\\Engine\\Source"
+	},
+	{
+		"file": "D:\\UnrealProjects\\CppThirdPerson\\Source\\CppThirdPerson\\CppThirdPersonGameMode.h",
+		"arguments": [
+			"C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@D:\\UnrealProjects\\CppThirdPerson\\.vscode\\compileCommands_Default\\CppThirdPerson.1.rsp"
+		],
+		"directory": "E:\\Epic Games\\UE_5.5\\Engine\\Source"
+	}
+]
