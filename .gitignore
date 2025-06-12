@@ -1,12 +1,8 @@
-# Unreal Engine 项目忽略规则
-
-# 编译生成的文件
+# Unreal Engine generated files
 Binaries/
 Intermediate/
 Saved/
 DerivedDataCache/
-
-# Visual Studio 文件
 .vs/
 *.VC.db
 *.opensdf
@@ -17,18 +13,95 @@ DerivedDataCache/
 *.xcodeproj
 *.xcworkspace
 
-# 其他临时文件
-*.log
-*.tlog
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# Visual Studio files
+.vs/
+*.user
+*.userosscache
+*.sln.docstates
+*.userprefs
+
+# Visual Studio Code files
+.vscode/*
+!.vscode/*.json
+
+# Windows files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS files
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Linux files
+*~
+.directory
+.Trash-*
+
+# Unreal Engine specific
+*.generated.h
+*.generated.cpp
+*.generated.uht
+*.generated.manifest
+*.generated.dep
+*.generated.uproject
+*.generated.uplugin
+*.generated.uasset
+*.generated.umap
+*.generated.ubuild
+*.generated.uproject
+*.generated.uplugin
+*.generated.uasset
+*.generated.umap
+*.generated.ubuild
+
+# Project specific
+*.exe
+*.dll
+*.so
+*.dylib
+*.lib
+*.a
+*.o
 *.obj
 *.pdb
 *.ilk
-*.dll
-*.exe
-*.lib
+*.exp
+*.manifest
+*.app
+*.ipa
+*.apk
+*.ap_
 *.so
 *.dylib
-
-# 操作系统文件
-.DS_Store
-Thumbs.db 
+*.dll
+*.lib
+*.a
+*.o
+*.obj
+*.pdb
+*.ilk
+*.exp
+*.manifest
+*.app
+*.ipa
+*.apk
+*.ap_ 

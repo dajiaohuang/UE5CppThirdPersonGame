@@ -1,25 +1,35 @@
 {
-	"configurations": [
-		{
-			"name": "CppThirdPersonEditor Editor Win64 Development (CppThirdPerson)",
-			"compilerPath": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
-			"cStandard": "c17",
-			"cppStandard": "c++20",
-			"intelliSenseMode": "msvc-x64",
-			"compileCommands": "D:\\UnrealProjects\\CppThirdPerson\\.vscode\\compileCommands_CppThirdPerson.json"
-		},
-		{
-			"name": "Win32",
-			"compilerPath": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
-			"cStandard": "c17",
-			"cppStandard": "c++20",
-			"intelliSenseMode": "msvc-x64",
-			"compileCommands": "D:\\UnrealProjects\\CppThirdPerson\\.vscode\\compileCommands_Default.json"
-		}
-	],
-	"includePath": [ 
-         "${workspaceFolder}\\Intermediate\\**", 
-         "${workspaceFolder}\\Plugins\\**", 
-         "${workspaceFolder}\\Source\\**" 
-     ],
+    "configurations": [
+        {
+            "name": "EmptyCppTestEditor Editor Win64 Development (EmptyCppTest)",
+            "compilerPath": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
+            "cStandard": "c17",
+            "cppStandard": "c++20",
+            "intelliSenseMode": "msvc-x64",
+            "compileCommands": [
+                "D:\\UnrealProjects\\EmptyCppTest\\.vscode\\compileCommands_EmptyCppTest.json"
+            ],
+			"includePath": [ 
+         		"${workspaceFolder}\\Intermediate\\**", 
+         		"${workspaceFolder}\\Plugins\\**", 
+         		"${workspaceFolder}\\Source\\**" 
+			]
+        },
+        {
+            "name": "Win32",
+            "compilerPath": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
+            "cStandard": "c17",
+            "cppStandard": "c++20",
+            "intelliSenseMode": "msvc-x64",
+            "compileCommands": [
+                "D:\\UnrealProjects\\EmptyCppTest\\.vscode\\compileCommands_Default.json"
+            ],
+			"includePath": [ 
+         		"${workspaceFolder}\\Intermediate\\**", 
+         		"${workspaceFolder}\\Plugins\\**", 
+         		"${workspaceFolder}\\Source\\**" 
+			]
+        }
+    ],
+    "version": 4
 }
