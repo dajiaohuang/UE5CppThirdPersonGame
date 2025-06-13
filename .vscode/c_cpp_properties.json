@@ -9,11 +9,17 @@
             "compileCommands": [
                 "D:\\UnrealProjects\\EmptyCppTest\\.vscode\\compileCommands_EmptyCppTest.json"
             ],
-			"includePath": [ 
-         		"${workspaceFolder}\\Intermediate\\**", 
-         		"${workspaceFolder}\\Plugins\\**", 
-         		"${workspaceFolder}\\Source\\**" 
-			]
+            "includePath": [ 
+                "${workspaceFolder}\\Intermediate\\**", 
+                "${workspaceFolder}\\Plugins\\**", 
+                "${workspaceFolder}\\Source\\**",
+            ],
+            "defines": [
+                "UBT_COMPILED_PLATFORM=Win64",
+                "WIN32=1",
+                "_WIN32_WINNT=0x0601",
+                "WINVER=0x0601"
+            ]
         },
         {
             "name": "Win32",
@@ -24,11 +30,17 @@
             "compileCommands": [
                 "D:\\UnrealProjects\\EmptyCppTest\\.vscode\\compileCommands_Default.json"
             ],
-			"includePath": [ 
-         		"${workspaceFolder}\\Intermediate\\**", 
-         		"${workspaceFolder}\\Plugins\\**", 
-         		"${workspaceFolder}\\Source\\**" 
-			]
+            "includePath": [ 
+                "${workspaceFolder}\\Intermediate\\**", 
+                "${workspaceFolder}\\Plugins\\**", 
+                "${workspaceFolder}\\Source\\**",
+            ],
+            "defines": [
+                "UBT_COMPILED_PLATFORM=Win64",
+                "WIN32=1",
+                "_WIN32_WINNT=0x0601",
+                "WINVER=0x0601"
+            ]
         }
     ],
     "version": 4
