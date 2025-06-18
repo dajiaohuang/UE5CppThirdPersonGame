@@ -45,6 +45,8 @@ AMyCharacter::AMyCharacter()
 	GetCharacterMovement()->JumpZVelocity = 600.0f;
 	GetCharacterMovement()->AirControl = 0.2f;
 
+	UE_LOG(LogTemp, Log, TEXT("AMyCharacter::AMyCharacter"));
+
 
 }
 
@@ -66,6 +68,7 @@ void AMyCharacter::BeginPlay()
 		{
 			Subsystem->AddMappingContext(DefaultMappingContext, 0);
 		}
+		UE_LOG(LogTemp, Log, TEXT("AMyCharacter::BeginPlay"));
 	}
 }
 
