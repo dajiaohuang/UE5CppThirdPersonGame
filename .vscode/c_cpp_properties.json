@@ -12,7 +12,7 @@
             "includePath": [ 
                 "${workspaceFolder}\\Intermediate\\**", 
                 "${workspaceFolder}\\Plugins\\**", 
-                "${workspaceFolder}\\Source\\**",
+                "${workspaceFolder}\\Source\\**"
             ],
             "defines": [
                 "UBT_COMPILED_PLATFORM=Win64",
@@ -33,7 +33,7 @@
             "includePath": [ 
                 "${workspaceFolder}\\Intermediate\\**", 
                 "${workspaceFolder}\\Plugins\\**", 
-                "${workspaceFolder}\\Source\\**",
+                "${workspaceFolder}\\Source\\**"
             ],
             "defines": [
                 "UBT_COMPILED_PLATFORM=Win64",

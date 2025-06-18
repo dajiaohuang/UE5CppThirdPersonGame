@@ -8,6 +8,7 @@
 #include "GameFramework/SpringArmComponent.h"
 #include "EnhancedInputComponent.h"
 #include "EnhancedInputSubsystems.h"
+#include "Components/SphereComponent.h"
 
 // Sets default values
 AMyCharacter::AMyCharacter()
@@ -34,6 +35,10 @@ AMyCharacter::AMyCharacter()
 	CameraBoom->bUsePawnControlRotation = true;
 	PlayerCamera->bUsePawnControlRotation = false;
 
+	//创建球体
+	MySphereComponent = CreateDefaultSubobject<USphereComponent>(TEXT("MySphereComponent"));
+	MySphereComponent->SetSphereRadius(100.0f);
+	
 	//让角色随移动方向旋转
 	GetCharacterMovement()->bOrientRotationToMovement = true;
 	GetCharacterMovement()->RotationRate = FRotator(0.0f, 540.0f, 0.0f);
@@ -41,6 +46,11 @@ AMyCharacter::AMyCharacter()
 	GetCharacterMovement()->AirControl = 0.2f;
 
 
+}
+
+void AMyCharacter::Attack()
+{
+	UE_LOG(LogTemp, Log, TEXT("Attack"));
 }
 
 // Called when the game starts or when spawned
@@ -102,6 +112,7 @@ void AMyCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCompone
 	{
 		EnhancedInputComponent->BindAction(MoveAction, ETriggerEvent::Triggered, this, &AMyCharacter::Move);
 		EnhancedInputComponent->BindAction(LookAction, ETriggerEvent::Triggered, this, &AMyCharacter::Look);
+		EnhancedInputComponent->BindAction(AttackAction, ETriggerEvent::Triggered, this, &AMyCharacter::Attack);
 	}
 }
 

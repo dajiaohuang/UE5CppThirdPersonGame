@@ -11,6 +11,7 @@ class USpringArmComponent;
 class UCameraComponent;
 class UInputMappingContext;
 class UInputAction;
+class USphereComponent;
 
 struct FInputActionValue;
 
@@ -22,6 +23,10 @@ class EMPTYCPPTEST_API AMyCharacter : public ACharacter
 public:
 	// Sets default values for this character's properties
 	AMyCharacter();
+
+	UFUNCTION(BlueprintCallable, Category = "Action")
+	virtual void Attack();
+
 
 protected:
 	// Called when the game starts or when spawned
@@ -46,6 +51,12 @@ private:
 
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Input, meta = (AllowPrivateAccess = "true"))
 	TObjectPtr<UInputAction> LookAction;
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Input, meta = (AllowPrivateAccess = "true"))
+	TObjectPtr<UInputAction> AttackAction;
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Sphere, meta = (AllowPrivateAccess = "true"))
+	TObjectPtr<USphereComponent> MySphereComponent;
 
 	// UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Input, meta = (AllowPrivateAccess = "true"))
 	// TObjectPtr<UInputAction> JumpAction;

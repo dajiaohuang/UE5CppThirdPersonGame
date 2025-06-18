@@ -54,5 +54,21 @@
 			"@D:\\UnrealProjects\\EmptyCppTest\\.vscode\\compileCommands_Default\\EmptyCppTest.1.rsp"
 		],
 		"directory": "E:\\Epic Games\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "D:\\UnrealProjects\\EmptyCppTest\\Source\\EmptyCppTest\\Private\\Warrior.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
+			"@D:\\UnrealProjects\\EmptyCppTest\\.vscode\\compileCommands_Default\\EmptyCppTest.1.rsp"
+		],
+		"directory": "E:\\Epic Games\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "D:\\UnrealProjects\\EmptyCppTest\\Source\\EmptyCppTest\\Public\\Warrior.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
+			"@D:\\UnrealProjects\\EmptyCppTest\\.vscode\\compileCommands_Default\\EmptyCppTest.1.rsp"
+		],
+		"directory": "E:\\Epic Games\\UE_5.6\\Engine\\Source"
 	}
 ]
